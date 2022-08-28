@@ -5,7 +5,7 @@ const NavbarImage = ({data}) => {
     const reduxData = useSelector((state) => state)
     return ( 
         <div>
-            <img src={reduxData.data.avatar}/>
+            <img src={reduxData.data.avatar} className="logo"/>
         </div>
      );
 }

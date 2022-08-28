@@ -5,7 +5,7 @@ const CardImage = () => {
     const reduxData = useSelector((state) => state)
     return ( 
         <div>
-            <img src={reduxData.data.avatar}/>
+            <img src={reduxData.data.avatar} className="avatar"/>
         </div>
      );
 }
